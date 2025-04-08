@@ -1,0 +1,50 @@
+.menu {
+    border-top: #472724 solid 1px;
+    width: 1366px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: #FFF1D8;
+    padding-bottom: 290px;
+
+    .title {
+        h2 {
+            text-align: center;
+            color: #581E19;
+            font-size: 40px;
+            font-family: 'Lobster', cursive;
+            margin-bottom: 20px;
+        }
+
+
+    }
+
+    .courses {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        .starter,
+        .main-course,
+        .dessert {
+            h3 {
+                text-align: center;
+                color: #581E19;
+                font-family: 'Lobster', cursive;
+            }
+
+            .food-pic {
+                width: 400px;
+                height: 300px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+
+            }
+        }
+    }
+}

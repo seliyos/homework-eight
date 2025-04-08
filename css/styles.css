@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 60px;
+  background-color: #472724;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff1d8;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #f8c291;
+  text-decoration: underline;
+}
+
+.hero {
+  width: 1366px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF1D8;
+}
+.hero .hero-pic {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .hero-text {
+  margin-top: 40px;
+  text-align: center;
+  color: #581E19;
+  font-family: "Lobster", cursive;
+}
+
+.menu {
+  border-top: #472724 solid 1px;
+  width: 1366px;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: #FFF1D8;
+  padding-bottom: 290px;
+}
+.menu .title h2 {
+  text-align: center;
+  color: #581E19;
+  font-size: 40px;
+  font-family: "Lobster", cursive;
+  margin-bottom: 20px;
+}
+.menu .courses {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu .courses .starter h3,
+.menu .courses .main-course h3,
+.menu .courses .dessert h3 {
+  text-align: center;
+  color: #581E19;
+  font-family: "Lobster", cursive;
+}
+.menu .courses .starter .food-pic,
+.menu .courses .main-course .food-pic,
+.menu .courses .dessert .food-pic {
+  width: 400px;
+  height: 300px;
+}
+.menu .courses .starter .food-pic img,
+.menu .courses .main-course .food-pic img,
+.menu .courses .dessert .food-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about {
+  border-top: #472724 solid 1px;
+  width: 1366px;
+  margin: 0 auto;
+  padding: 30px 100px;
+  background-color: #FFF1D8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 205px;
+}
+.about .text {
+  width: 50%;
+}
+.about .text h2 {
+  text-align: center;
+  color: #581E19;
+  font-size: 40px;
+  font-family: "Lobster", cursive;
+  margin-bottom: 20px;
+}
+.about .text p {
+  text-align: center;
+  color: #581E19;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  margin-bottom: 20px;
+}
+.about .image {
+  width: 400px;
+  height: 500px;
+  background-image: url(../images/chef.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.contact {
+  border-top: #472724 solid 1px;
+  width: 1366px;
+  margin: 0 auto;
+  padding: 30px 100px;
+  background-color: #FFF1D8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 210px;
+}
+.contact .address {
+  width: 50%;
+}
+.contact .address h2,
+.contact .address p {
+  text-align: center;
+  color: #581E19;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  margin-bottom: 20px;
+}
+.contact .address h2 {
+  font-size: 40px;
+}
+.contact .image-holder {
+  width: 400px;
+  height: 500px;
+  background-image: url(../images/map.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.site-footer {
+  background-color: #472724;
+  color: #fff1d8;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+}

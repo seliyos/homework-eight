@@ -1,0 +1,21 @@
+nav {
+    height: 60px;
+    background-color: #472724; // same as footer background
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+
+    a {
+        text-decoration: none;
+        color: #fff1d8;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #f8c291;
+            text-decoration: underline;
+        }
+    }
+}

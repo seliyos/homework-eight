@@ -1,0 +1,44 @@
+.about {
+    border-top: #472724 solid 1px;
+    width: 1366px;
+    margin: 0 auto;
+    padding: 30px 100px;
+    background-color: #FFF1D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 205px;
+
+
+
+    .text {
+        width: 50%;
+
+        h2 {
+            text-align: center;
+            color: #581E19;
+            font-size: 40px;
+            font-family: 'Lobster', cursive;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            color: #581E19;
+            font-size: 20px;
+            font-family: 'Lobster', cursive;
+            margin-bottom: 20px;
+        }
+    }
+
+    .image {
+        width: 400px;
+        height: 500px;
+        background-image: url(../images/chef.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+
+    }
+}

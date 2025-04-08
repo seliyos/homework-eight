@@ -1,0 +1,38 @@
+.contact {
+    border-top: #472724 solid 1px;
+    width: 1366px;
+    margin: 0 auto;
+    padding: 30px 100px;
+    background-color: #FFF1D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 210px;
+
+    .address {
+        width: 50%;
+
+        h2,
+        p {
+            text-align: center;
+            color: #581E19;
+            font-size: 20px;
+            font-family: 'Lobster', cursive;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+    }
+
+    .image-holder {
+        width: 400px;
+        height: 500px;
+        background-image: url(../images/map.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+}
